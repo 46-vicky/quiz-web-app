@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ WEB APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="quiz_header">
+            <h2>Quiz</h2>
+        </header>
+        <div class="top-menu">
+            <span>Home</span><span>contact</span><span>login</span>
+
+        </div>
+        <div class="quiz_container">
+            <div class="side-menu">
+                <h3>Types Of Quiz</h3>
+                <div class="side_quiz-menu quiz-tab" onclick="redierct()">Math</div>
+                <div class="side_quiz-menu quiz-tab" onclick="redierct()">Science</div>
+                <div class="side_quiz-menu quiz-tab" onclick="redierct()">Social</div>
+                <div class="side_quiz-menu quiz-tab" onclick="redierct()">grammar</div>
+                <div class="side_quiz-menu quiz-tab" onclick="redierct()">Arts</div>
+                <div class="side_quiz-menu quiz-tab" onclick="redierct()">Vocabulary</div>
+            </div>
+            <div class="quiz-menu">
+                <div class="quizs quiz-tab" onclick="redierct()">
+                    <div class=title>Math</div>
+                    <div class="imgs"><img src="./images/math.jpg" alt="quiz img"></div>
+                    <div class="quiz_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, iure.</div>
+                </div>
+                <div class="quizs quiz-tab" onclick="redierct()">
+                    <div class=title>Science</div>
+                    <div class="imgs"><img src="./images/science.jpg" alt="quiz img"></div>
+                    <div class="quiz_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, iure.</div>
+                </div>
+                <div class="quizs quiz-tab" onclick="redierct()">
+                    <div class=title>Social</div>
+                    <div class="imgs"><img src="./images/social.jpg" alt="quiz img"></div>
+                    <div class="quiz_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, iure.</div>
+                </div>
+                <div class="quizs quiz-tab" onclick="redierct()">
+                    <div class=title>grammar</div>
+                    <div class="imgs"><img src="./images/grammar.jpg" alt="quiz img"></div>
+                    <div class="quiz_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, iure.</div>
+                </div>
+                <div class="quizs quiz-tab" onclick="redierct()">
+                    <div class=title>Arts</div>
+                    <div class="imgs"><img src="./images/arts.jpg" alt="quiz img"></div>
+                    <div class="quiz_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, iure.</div>
+                </div>
+                <div class="quizs quiz-tab" onclick="redierct()">
+                    <div class=title>Vocabulary</div>
+                    <div class="imgs"><img src="./images/vocabulary.jpg" alt="quiz img"></div>
+                    <div class="quiz_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, iure.</div>
+                </div>
+            </div>
+        </div>
+        <footer class="quiz_footer">
+            <div class="copyright">
+                <p>copyright 2022<a href="#"> @vigneshwaran</a>.All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function redierct() {
+            window.location = "http://127.0.0.1:5500/quizpage.html";
+        }
+    </script>
+</body>
+
+</html>
