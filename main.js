@@ -88,7 +88,7 @@ $(document).ready(function() {
         userScore = 0;
         $('.option').removeClass('selectans')
         $('.option').removeClass('rightans')
-        $('.option').removeClass('worngans')
+        $('.option').removeClass('wrongans')
     });
 });
 
